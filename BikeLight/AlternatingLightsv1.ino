@@ -41,7 +41,9 @@ void loop() {
     // if the LED is off turn it on and vice-versa:
     if (ledState == LOW) {
       ledState = HIGH;
-    } else {
+    } 
+    
+    else {
       ledState = LOW;
     }
 
